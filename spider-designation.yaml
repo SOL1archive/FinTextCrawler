@@ -1,0 +1,55 @@
+ArticleScraper:
+  start_url: 
+    - https://openapi.naver.com/v1/search/news
+    - https://n.news.naver.com/
+  allowed_domains:
+    - https://naver.com
+  target_keywords:
+    - 
+  search_keywords:
+    - 
+  delay: Normal Dist
+  use_webdriver: False
+  webdriver_path: /opt/microsoft/msedge
+  display: 100
+  start_date: "2022-08-30 00:00:00"
+  end_date: "2022-12-31 00:00:00"
+  Naver_Client_Id: 
+  Naver_Client_Secret: 
+  
+TwitterScraper:
+  start_url: 
+    - https://api.twitter.com/2/tweets/search/recent
+  allowed_domains:
+    - https://api.twitter.com/2/tweets
+  target_keywords:
+    - 
+  search_keywords:
+    - 
+  delay: 6
+  use_webdriver: False
+  count: 100
+  start_date: "2022-12-30 00:00:00"
+  end_date: "2022-12-31 00:00:00"
+  consumer_key: 
+  consumer_secret: 
+  bearer_token: 
+  access_token : 
+  access_token_secret : 
+  query_fields : created_at
+
+CommunityScraper:
+  start_url: 
+    - https://finance.naver.com/item/board.naver
+  allowed_domains: 
+    - https://finance.naver.com
+  target_keywords: 
+    - 
+  search_keywords:
+    - 
+  delay: Normal Dist
+  use_webdriver: False
+  count: 2
+  start_date: "2022-12-01 00:00:00"
+  end_date: "2023-01-05 00:00:00"
+  ticker: ""
