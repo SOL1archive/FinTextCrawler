@@ -37,3 +37,10 @@ If there is any Issues or Question, feel free to add issue on this repository or
 |beautifulsoup4|4.11.1|
 |MySQLdb|1.4.6|
 |PyYAML|5.4.1|
+
+## Contributors
+- [Subin Park](https://sol1archive.github.io/)
+    - email: enlightkorean@gmail.com
+- [Hyunjin Park](https://github.com/HeIIowrld)
+    - email: parkhyunjin365@gmail.com
+    
