@@ -16,7 +16,7 @@
 |Database|MySQL|8.0.31|
 |Python|CPython|3.10.x|
 
-> **주의**: 기본적으로 내장된 mysql 객체지향형 인터페이스는 SQL Injection에 대한 대응이 되어있지 않으므로, 안전한 값들에 대해서만 사용할 것을 권장함.
+> **주의**: 기본적으로 내장된 mysql 객체지향형 인터페이스는 SQL Injection에 대한 대응이 되어있지 않으므로, 안전한 값들에 대해서만 사용할 것을 권장함. 추후 `sqlalchemy`로 변경할 예정
 
 If there is any Issues or Question, feel free to add issue on this repository or contact to enlightkorean@gmail.com
 
